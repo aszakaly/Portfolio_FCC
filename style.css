@@ -1,3 +1,4 @@
+/* General set up */
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -5,3 +6,49 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
+
+/*Navbar set up */
+.navbar {
+    background-color: #C6D4E1;
+    border-radius: 0%;
+    font-size: 120%;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.navbar-right a{
+    color:#424242 !important;
+    font-weight: 700;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    margin-top: -15px;
+}
+
+/* Navbar JQuery input*/
+
+.nav-active {
+    background-color: #ffb341;
+    border-radius: 10%;    
+}
+
+/* Formatting the about section */
+#about {
+    background-color:#EBE7E0;
+    height: 400px;
+}
+
+.akos {
+    border-radius: 50%;
+    max-height: 200px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    margin-top: 25%;
+}
+
+#profile {
+    border: 0px;
+}
+
