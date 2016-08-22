@@ -1,22 +1,40 @@
 /* General set up */
 body {
     font-family: 'Lato', sans-serif;
+    color: #52527a;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #52527a;
+    text-transform: uppercase;
+}
+
+#main-container {
+    padding: 0;
+}
+
+section {
+    border: 1px solid;
+    border-color: #c2c2d6;
+}
+
 /*Navbar set up */
 .navbar {
-    background-color: #C6D4E1;
+    background-color: #000080;
     border-radius: 0%;
     font-size: 120%;
     margin-bottom: 0px;
     text-transform: uppercase;
+    border-color: #0039e6;
 }
 .navbar-right a{
-    color:#424242 !important;
+    color:white !important;
     font-weight: 700;
 }
 
@@ -28,19 +46,19 @@ h1 {
 /* Navbar JQuery input*/
 
 .nav-active {
-    background-color: #ffb341;
-    border-radius: 10%;    
+    background-color: #b3b3cc;
 }
 
 /* Formatting the about section */
 #about {
-    background-color:#EBE7E0;
+    background-color:#aaaaaa;
     height: 400px;
+    color: white;
 }
 
 .akos {
     border-radius: 50%;
-    max-height: 200px;
+    max-height: 150px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -52,3 +70,21 @@ h1 {
     border: 0px;
 }
 
+/*Formatting of portfolio section*/
+#portfolio {
+    background-color: #f0f0f5;
+    height: 400px;
+}
+
+/*Formatting of contact section*/
+#contact {
+    background-color: #f0f0f5;
+    height: 400px;
+}
+
+/*Formatting of footer section*/
+
+footer {
+    background-color: #0a0a0f;
+    height: 100px;
+}
