@@ -20,7 +20,9 @@ h2 {
 }
 
 section {
-    border: 1px solid;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
     border-color: #c2c2d6;
 }
 
@@ -59,21 +61,23 @@ section {
 .akos {
     border-radius: 50%;
     max-height: 150px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-    margin-top: 25%;
 }
 
 #profile {
     border: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Formatting of portfolio section*/
 #portfolio {
     background-color: #f0f0f5;
-    height: 400px;
+
+}
+
+.portfolio-item {
+    background-color: inherit;
 }
 
 /*Formatting of contact section*/
