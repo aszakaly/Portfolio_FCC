@@ -1,6 +1,7 @@
-/* General set up */
+/* Headers and basics */
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #e0e0eb;
 }
 
 h1 {
@@ -13,3 +14,64 @@ h2 {
     color: #52527a;
     text-transform: uppercase;
 }
+
+.divider-header {
+    margin: 15px 0 15px 0;
+}
+
+/*Cards formatting*/
+
+.main-card{
+    box-shadow:0 8px 12px 0 rgba(0,0,0,0.4);
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.small-card{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.4);
+    border: 0px;
+    border-radius: 1%;
+    padding: 0px;
+}
+
+.small-card img {
+
+}
+
+
+/*Navbar formatting*/
+nav {
+    background-color: #1a1a1a !important;
+    text-transform: uppercase;
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.navbar-nav .navbar-right {
+    color: #ffffff !important;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    margin-top: -8px;
+}
+
+/*About section*/
+
+/*Portfolio cards*/
+
+/*Contact form*/
+
+.form-control {
+    border-radius: 0%;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: none;
+    border-bottom: 2px black;
+    box-shadow: 0 0 0 0;
+}
+
+/*Contact social*/
+
+/*Misc formats*/
