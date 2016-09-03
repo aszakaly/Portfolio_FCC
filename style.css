@@ -58,11 +58,33 @@ nav {
 }
 
 /*About section*/
-.profile {
-    border-radius: 50%;
-    max-height: 200px;
-    object-fit: none;
-    object-position: 50% 50% !important;
+
+#profile {
+    background-image: url("Assets/Artboard%201.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#about h3 {
+    margin-bottom: 30px;
+    font-size: 220%;
+}
+
+.about-text {
+    font-size: 180%;
+}
+
+.quote-text {
+    margin-top: -40px;
+    padding-bottom: 20px;
+    font-size: 180%;
+    padding-left: 50px;
+}
+
+.quote-box {
+    background-color: #f0f0f5;
+    width:65%;
 }
 
 /*Portfolio cards*/
@@ -80,4 +102,12 @@ nav {
 
 /*Contact social*/
 
+/*Footer*/
+footer {
+    background-color: #1a1a1a;
+    min-height: 50px;
+    margin-top: 20px;
+}
+
 /*Misc formats*/
+
