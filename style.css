@@ -59,12 +59,19 @@ nav {
 
 /*About section*/
 
-#profile {
-    background-image: url("Assets/Artboard%201.jpg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
+.profile-pic {
+    height: inherit;
 }
+
+.profile-pic img {
+    margin: 40% auto;
+}
+
+@media (max-width: 992px) {
+  .profile-pic img {
+    margin: 10% auto;
+}
+  }
 
 #about h3 {
     margin-bottom: 30px;
