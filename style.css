@@ -42,13 +42,14 @@ h2 {
 
 /*Navbar formatting*/
 nav {
-    background-color: #1a1a1a !important;
+    background-color: #2C6493 !important;
     text-transform: uppercase;
     font-size: 120%;
     font-weight: 700;
+    color: #ffffff !important;
 }
 
-.navbar-nav .navbar-right {
+.navbar-right a {
     color: #ffffff !important;
 }
 
@@ -94,26 +95,60 @@ nav {
     width:65%;
 }
 
-/*Portfolio cards*/
+/*Portfolio*/
 
-/*Contact form*/
-
-.form-control {
-    border-radius: 0%;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: none;
-    border-bottom: 2px black;
-    box-shadow: 0 0 0 0;
+#portfolio h3 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/*Contact social*/
+.portfolio-btn {
+    border-radius: 0px;
+    margin-left: 75%;
+    background-color: #2C6493;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+}
+
+/*Contact*/
+
+.contact-email {
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 0;
+    border-bottom: 1px solid #52527a;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+textarea {
+    border: 1px solid #52527a !important;
+}
+
+label {
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+#social p {
+    text-align: center;
+    font-size: 120%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /*Footer*/
 footer {
     background-color: #1a1a1a;
     min-height: 50px;
     margin-top: 20px;
+}
+
+#social .fa {
+    color: #52527a;
+    opacity: 0.7;
+    padding: 0 5px;
 }
 
 /*Misc formats*/
